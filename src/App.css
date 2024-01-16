@@ -558,6 +558,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+.projects {
+  cursor: pointer;
+}
 
 /************ Footer Css ************/
 .footer {
@@ -668,4 +671,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .tst-timer {
   margin: 10px;
+}
+
+.project-icons {
+  padding: 1rem;
+}
+.icon {
+  padding: 4px;
+  font-size: 36px;
+}
+.react-icon {
+}
+/* Add this to your stylesheet or in the head of your HTML */
+.icon.react-icon {
+  color: #61dafb; /* Change to the color you want for React icon */
+}
+
+.icon.js-icon {
+  color: #f0db4f; /* Change to the color you want for JavaScript icon */
+}
+
+.icon.tail-icon {
+  color: #38b2ac; /* Change to the color you want for Tailwind CSS icon */
+}
+
+.icon.red-icon {
+  color: #764abc; /* Change to the color you want for Redux icon */
+}
+
+.icon.axios-icon {
+  color: #61dafb; /* Change to the color you want for Axios icon */
+}
+
+.icon.char-icon {
+  color: #ff6384; /* Change to the color you want for Chart.js icon */
+}
+
+.icon.next-icon {
+  color: #000000; /* Change to the color you want for Next.js icon */
+}
+
+.icon.mongo-icon {
+  color: #4db33d; /* Change to the color you want for MongoDB icon */
 }
