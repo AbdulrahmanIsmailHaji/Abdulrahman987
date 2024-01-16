@@ -35,31 +35,14 @@ export const Projects = () => {
     },
     {
       title: "Promptopia",
-      description: "Design & Development",
+      description: "One of the HARDEST and Enjofull Project That I Ever Done",
       imgUrl: projImg4,
       link: "https://promtopia-ai.vercel.app/",
       icons: ["nextjs", "mongo"],
     },
     {
       title: "GPT-3",
-      description: "Design & Development",
-      imgUrl: projImg5,
-      link: "https://gpt-3-chi-ebon.vercel.app/",
-      icons: ["react"],
-    },
-  ];
-
-  const projectsTab2 = [
-    {
-      title: "Promptopia",
-      description: "Design & Development",
-      imgUrl: projImg4,
-      link: "https://promtopia-ai.vercel.app/",
-      icons: ["nextjs", "mongo"],
-    },
-    {
-      title: "GPT-3",
-      description: "Design & Development",
+      description: "Simple React Project with no Fancionallity",
       imgUrl: projImg5,
       link: "https://gpt-3-chi-ebon.vercel.app/",
       icons: ["react"],
@@ -109,7 +92,7 @@ export const Projects = () => {
                           React + Nextjs
                         </Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      {/* <Nav.Item>
                         <Nav.Link className="projects" eventKey="second">
                           MERN
                         </Nav.Link>
@@ -117,8 +100,8 @@ export const Projects = () => {
                       <Nav.Item>
                         <Nav.Link className="projects" eventKey="third">
                           HTML CSS JAVASCRIPT
-                        </Nav.Link>
-                      </Nav.Item>
+                        </Nav.Link> */}
+                      {/* </Nav.Item> */}
                     </Nav>
                     <Tab.Content
                       id="slideInUp"
@@ -133,14 +116,14 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">
+                      {/* <Tab.Pane eventKey="second">
                         <Row>
                           {projectsTab2.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
+                      </Tab.Pane> */}
+                      {/* <Tab.Pane eventKey="third">
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Cumque quam, quod neque provident velit, rem
@@ -148,7 +131,7 @@ export const Projects = () => {
                           eligendi dicta officiis asperiores delectus quasi
                           inventore debitis quo.
                         </p>
-                      </Tab.Pane>
+                      </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
