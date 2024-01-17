@@ -714,3 +714,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .icon.mongo-icon {
   color: #4db33d; /* Change to the color you want for MongoDB icon */
 }
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 35px !important; /* Add !important to ensure it overrides other styles */
+  }
+}
