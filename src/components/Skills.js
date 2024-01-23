@@ -1,10 +1,16 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import { FaReact, FaJs, FaNodeJs } from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiRedux,
+  SiMongodb,
+  SiExpress,
+  SiTypescript,
+} from "react-icons/si";
+import { TbBrandNextjs, TbBrandSass } from "react-icons/tb";
+import { IoLogoHtml5 } from "react-icons/io5";
+import { IoLogoCss3 } from "react-icons/io";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import Circle from "./Circle";
 
@@ -57,23 +63,84 @@ export const Skills = () => {
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
-                <Circle fillPercentage={10} text="HTML" per={90} />
-                <Circle fillPercentage={10} text="CSS" per={90} />
-                <Circle fillPercentage={15} text="JAVASCRIPT" per={85} />
-                <Circle fillPercentage={25} text="TYPESCRIPT" per={75} />
-                <Circle fillPercentage={15} text="REACT" per={85} />
-                <Circle fillPercentage={35} text="NODE.JS " per={65} />
-                <Circle fillPercentage={35} text="EXPRESS.JS" per={65} />
-                <Circle fillPercentage={15} text="NEXT.JS" per={85} />
-                <Circle fillPercentage={10} text="MONGODB" per={90} />
-                <Circle fillPercentage={15} text="TAILWINDCSS" per={85} />
-                <Circle fillPercentage={10} text="SASS" per={80} />
+                <Circle
+                  className="html-icon"
+                  fillPercentage={0}
+                  text="HTML"
+                  icon={<IoLogoHtml5 />}
+                />
+                <Circle
+                  className="css-icon"
+                  fillPercentage={0}
+                  text="CSS"
+                  icon={<IoLogoCss3 />}
+                />
+                <Circle
+                  className="js-icon"
+                  fillPercentage={0}
+                  text="JAVASCRIPT"
+                  icon={<FaJs />}
+                />
+                <Circle
+                  className="ts-icon"
+                  fillPercentage={0}
+                  text="TYPESCRIPT"
+                  icon={<SiTypescript />}
+                />
+                <Circle
+                  className="react-icon"
+                  fillPercentage={0}
+                  text="REACT"
+                  icon={<FaReact />}
+                />
+                <Circle
+                  className="node-icon"
+                  fillPercentage={0}
+                  text="NODE.JS "
+                  icon={<FaNodeJs />}
+                />
+                <Circle
+                  className="exp-icon"
+                  fillPercentage={0}
+                  text="EXPRESS.JS"
+                  icon={<SiExpress />}
+                />
+                <Circle
+                  className="next-icon"
+                  fillPercentage={0}
+                  text="NEXT.JS"
+                  icon={<TbBrandNextjs />}
+                />
+                <Circle
+                  className="mongo-icon"
+                  fillPercentage={0}
+                  text="MONGODB"
+                  icon={<SiMongodb />}
+                />
+                <Circle
+                  className="tail-icon"
+                  fillPercentage={0}
+                  text="TAILWINDCSS"
+                  icon={<SiTailwindcss />}
+                />
+                <Circle
+                  className="sass-icon"
+                  fillPercentage={0}
+                  text="SASS"
+                  icon={<TbBrandSass />}
+                />
+                <Circle
+                  className="red-icon"
+                  fillPercentage={0}
+                  text="REACT REDUX"
+                  icon={<SiRedux />}
+                />
               </Carousel>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 };

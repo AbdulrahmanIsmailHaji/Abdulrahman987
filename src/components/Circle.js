@@ -1,6 +1,6 @@
 import React from "react";
 
-const CountdownTimer = ({ fillPercentage, text, per }) => {
+const CountdownTimer = ({ fillPercentage, text, icon, className }) => {
   const radius = 50;
   const circumference = 2 * Math.PI * radius;
   const strokeDashoffset = (fillPercentage / 100) * circumference;
@@ -42,7 +42,7 @@ const CountdownTimer = ({ fillPercentage, text, per }) => {
           </defs>
         </svg>
         <h5 className="countdown-label">{text}</h5>
-        <h5 className="countdown-per">{per}%</h5>
+        <h5 className={`countdown-per ${className}`}>{icon}</h5>
       </div>
     </div>
   );

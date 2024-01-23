@@ -654,19 +654,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .countdown-label {
   font-size: 15px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
   color: white; /* Adjust the text color as needed */
 }
 .countdown-per {
-  font-size: 15px;
+  background-color: #ffffff;
+  padding: 2px;
+  margin-top: 12px;
+  font-size: 25px;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0;
   color: white; /* Adjust the text color as needed */
 }
 .tst-timer {
@@ -680,43 +682,58 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 4px;
   font-size: 36px;
 }
+/* Example CSS styles for the icons */
+.html-icon {
+  color: #e44d26; /* HTML5 color */
+}
+
+.css-icon {
+  color: #2965f1; /* CSS3 color */
+}
+
+.js-icon {
+  color: #f7df1e; /* JavaScript color */
+}
+
+.ts-icon {
+  color: #3178c6; /* TypeScript color */
+}
+
 .react-icon {
-}
-/* Add this to your stylesheet or in the head of your HTML */
-.icon.react-icon {
-  color: #61dafb; /* Change to the color you want for React icon */
+  color: #61dafb; /* React color */
 }
 
-.icon.js-icon {
-  color: #f0db4f; /* Change to the color you want for JavaScript icon */
+.node-icon {
+  color: #68a063; /* Node.js color */
 }
 
-.icon.tail-icon {
-  color: #38b2ac; /* Change to the color you want for Tailwind CSS icon */
+.exp-icon {
+  color: #000000; /* Express.js color */
 }
 
-.icon.red-icon {
-  color: #764abc; /* Change to the color you want for Redux icon */
+.next-icon {
+  color: #000000; /* Next.js color */
 }
 
-.icon.axios-icon {
-  color: #61dafb; /* Change to the color you want for Axios icon */
+.mongo-icon {
+  color: #47a248; /* MongoDB color */
 }
 
-.icon.char-icon {
-  color: #ff6384; /* Change to the color you want for Chart.js icon */
+.tail-icon {
+  color: #38b2ac; /* Tailwind CSS color */
 }
 
-.icon.next-icon {
-  color: #000000; /* Change to the color you want for Next.js icon */
+.sass-icon {
+  color: #cc6699; /* SASS color */
 }
 
-.icon.mongo-icon {
-  color: #4db33d; /* Change to the color you want for MongoDB icon */
+.red-icon {
+  color: #764abc; /* React Redux color */
 }
 
 @media only screen and (max-width: 640px) {
   h1 {
-    font-size: 35px !important; /* Add !important to ensure it overrides other styles */
+    font-size: 35px !important;
+    min-height: 150px !important;
   }
 }
